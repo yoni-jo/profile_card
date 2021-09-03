@@ -71,9 +71,14 @@ section {
     height: 30px;
     border-radius: 50%;
     margin-right: 1rem;
-    box-shadow: 5px 5px 10px rgba(170, 169, 169, 0.7)
+    box-shadow: 5px 5px 10px rgba(170, 169, 169, 0.7);
+    opacity:.4;
+    filter:saturate(.7);
 }
-
+.others a.on{
+    filter:saturate(1);
+    opacity:1;
+}
 .others a:nth-of-type(1) {
     background-color: var(--color_yellow)
 }
