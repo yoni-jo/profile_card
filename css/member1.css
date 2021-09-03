@@ -1,20 +1,4 @@
 
-.material-icons {
-    font-size: var(--font_small);
-}
-
-.btn--more {
-    width: 150px;
-    height: 30px;
-    margin-top: 1rem;
-    border: 0;
-    color: var(--color_white);
-    border-radius: 16px;
-    font-weight: var(--font_bold);
-    font-size: var(--font_tiny);
-
-}
-
 /* MENU */
 
 .menu {
