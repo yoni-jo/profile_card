@@ -19,9 +19,6 @@
 }
 
 /* COMMON */
-body {
-    background-color: var(--color_yellow)
-}
 
 h1,
 p {
@@ -60,4 +57,33 @@ section {
     font-weight: var(--font_bold);
     font-size: var(--font_tiny);
 
+}
+
+/* OTHERS */
+.others {
+    display: flex;
+    justify-content: center;
+}
+
+.others a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    box-shadow: 5px 5px 10px rgba(170, 169, 169, 0.7)
+}
+
+.others a:nth-of-type(1) {
+    background-color: var(--color_yellow)
+}
+
+.others a:nth-of-type(2) {
+
+    background-color: var(--color_blue)
+}
+
+.others a:nth-of-type(3) {
+
+    background-color: var(--color_pink)
 }

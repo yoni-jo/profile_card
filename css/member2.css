@@ -1,7 +1,7 @@
-body {
-    background-color: var(--color_yellow)
-}
 
+body {
+    background-color: var(--color_blue)
+}
 
 /* MENU */
 
@@ -26,14 +26,15 @@ body {
 .profile figure .profile--img {
     width: 200px;
     height: 200px;
+    object-fit: cover;
     border-radius: 50%;
-    box-shadow: 5px 10px 20px rgba(228, 210, 48, 0.5);
+    box-shadow: 5px 10px 20px #9ddbee80;
 }
 
 .profile>.btn--more {
-    background: linear-gradient(45deg, var(--color_yellow), #f1f387);
-    background-color: var(--color_yellow);
-    box-shadow: 5px 10px 20px rgba(228, 210, 48, 0.5);
+    background: linear-gradient(45deg, var(--color_blue), #9ddbee);
+    background-color: var(--color_pink);
+    box-shadow: 5px 10px 20px rgba(157, 219, 238, 0.5);
 }
 
 /* CONTACT */

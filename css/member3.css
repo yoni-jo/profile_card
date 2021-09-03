@@ -1,7 +1,6 @@
 body {
-    background-color: var(--color_yellow)
+    background-color: var(--color_pink);
 }
-
 
 /* MENU */
 
@@ -27,13 +26,13 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    box-shadow: 5px 10px 20px rgba(228, 210, 48, 0.5);
+    box-shadow: 5px 10px 20px rgba(240, 193, 2378, 0.5);
 }
 
 .profile>.btn--more {
-    background: linear-gradient(45deg, var(--color_yellow), #f1f387);
-    background-color: var(--color_yellow);
-    box-shadow: 5px 10px 20px rgba(228, 210, 48, 0.5);
+    background: linear-gradient(45deg, var(--color_pink), rgb(240, 193, 237));
+    background-color: var(--color_pink);
+    box-shadow: 5px 10px 20px rgba(240, 193, 237, 0.5);
 }
 
 /* CONTACT */
@@ -62,6 +61,3 @@ body {
     width: 80%;
     margin-left: 1rem;
 }
-
-
-
