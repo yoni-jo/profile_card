@@ -8,6 +8,7 @@
     --color_yellow: #e4d230;
     --color_pink: #e78092;
     --color_gray: #5a5858;
+    --color_green: rgb(2, 109, 2);
 
     --font_large: 3rem;
     --font_medium: 2rem;
@@ -91,4 +92,9 @@ section {
 .others a:nth-of-type(3) {
 
     background-color: var(--color_pink)
+}
+
+.others a:nth-of-type(4) {
+
+    background-color: var(--color_green)
 }

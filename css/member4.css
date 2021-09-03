@@ -1,0 +1,63 @@
+body {
+    background-color: var(--color_green);
+}
+
+/* MENU */
+
+.menu {
+    display: flex;
+    justify-content: space-between
+}
+
+.menu>a {
+    display: block;
+    color: var(--color_gray);
+}
+
+.menu>a:hover {}
+
+/* PROFILE */
+
+.profile {
+    text-align: center;
+}
+
+.profile figure .profile--img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 7px 10px 20px rgba(2, 109, 2, 0.5);
+}
+
+.profile>.btn--more {
+    background: linear-gradient(45deg, var(--color_green), rgb(86, 224, 22));
+    background-color: var(--color_green);
+    box-shadow: 5px 10px 20px rgba(240, 193, 237, 0.5);
+}
+
+/* CONTACT */
+.contect {
+    margin-top: 1rem;
+}
+
+.contect>li {
+    display: flex;
+    align-items: center;
+    color: var(--color_gray);
+    padding: 10px;
+    font-size: var(--font_tiny);
+}
+
+.contect>li:first-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.contect>li>div {
+    width: 20%;
+    text-shadow: 2px 2px 2px #ddd;
+}
+
+.contect>li>span {
+    width: 80%;
+    margin-left: 1rem;
+}
