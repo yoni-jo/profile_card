@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root {
+    --color_sky: #ebfaff;
+    --color_white: #fff;
+    --color_black: #000;
+    --color_pink: rgb(231, 128, 146);
+
+
+    --font_large: 5rem;
+    --font_medium: 3rem;
+    --font_small: 1.6rem;
+
+}
+
+/* COMMON */
+body {
+    background-color: var(--color_sky)
+}
+
+
+section {
+    width: 340px;
+    padding: 30px;
+    background-color: #fff;
+    margin: 50px auto;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.material-icons {
+    font-size: var(--font_small);
+}
+
+/* MENU */
+
+.menu {
+    display: flex;
+    justify-content: space-between
+}
+
+.menu>a {
+    display: block;
+    color: var(--color_pink);
+}
+
+.menu>a:hover {}
+
+/* PROFILE */
+
