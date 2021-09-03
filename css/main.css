@@ -4,20 +4,36 @@
     --color_sky: #ebfaff;
     --color_white: #fff;
     --color_black: #000;
-    --color_pink: rgb(231, 128, 146);
+    --color_yellow: #e4d230;
+    --color_pink: #e78092;
+    --color_gray: #5a5858;
 
-
-    --font_large: 5rem;
-    --font_medium: 3rem;
+    --font_large: 3rem;
+    --font_medium: 2rem;
     --font_small: 1.6rem;
+    --font_tiny:.9rem;
 
+    --font_bold:700;
+    --font_light:300;
 }
 
 /* COMMON */
 body {
-    background-color: var(--color_sky)
+    background-color: var(--color_yellow)
 }
 
+h1,
+p {
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: var(--font_large);
+}
+
+p {
+    color: var(--color_gray)
+}
 
 section {
     width: 340px;
@@ -33,6 +49,18 @@ section {
     font-size: var(--font_small);
 }
 
+.btn--more {
+    width: 150px;
+    height: 30px;
+    margin-top: 1rem;
+    border: 0;
+    color: var(--color_white);
+    border-radius: 16px;
+    font-weight:var(--font_bold);
+    font-size:var(--font_tiny);
+    
+}
+
 /* MENU */
 
 .menu {
@@ -42,10 +70,25 @@ section {
 
 .menu>a {
     display: block;
-    color: var(--color_pink);
+    color: var(--color_gray);
 }
 
 .menu>a:hover {}
 
 /* PROFILE */
 
+.profile {
+    text-align: center;
+}
+
+.profile figure .profile--img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(228, 210, 48, 0.5);
+}
+.profile>.btn--more{
+    background: linear-gradient(45deg, var(--color_yellow),#f1f387);
+    background-color: var(--color_yellow);
+    box-shadow: 5px 10px 20px rgba(228, 210, 48, 0.5);
+}
